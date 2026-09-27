@@ -1,0 +1,24 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Playwright: Run all tests",
+      "type": "shell",
+      "command": "npx playwright test",
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "Playwright: Run tests with UI",
+      "type": "shell",
+      "command": "npx playwright test --ui",
+      "problemMatcher": []
+    },
+    {
+      "label": "Playwright: Open HTML report",
+      "type": "shell",
+      "command": "npx playwright show-report",
+      "problemMatcher": []
+    }
+  ]
+}
